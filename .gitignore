@@ -17,8 +17,6 @@ venv/
 .python_history
 
 # Data / plot output
-# images/
-*.png
 *.pdf
 
 # OS files

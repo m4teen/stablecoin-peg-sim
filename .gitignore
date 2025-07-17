@@ -1,0 +1,37 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.envrc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python history
+.python_history
+
+# Data / plot output
+images/
+*.png
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Notebook metadata (optional)
+*.nbconvert.ipynb

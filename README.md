@@ -6,7 +6,7 @@ This project simulates how a collateral-backed stablecoin (similar to DAI) maint
 
 ## 🔍 What It Shows
 
-Using simple Python simulations and visualizations, this model demonstrates:
+Using simple Python simulations and visualisations, this model demonstrates:
 
 - How collateral ratios evolve during collateral price drops
 - When liquidation thresholds are breached
@@ -26,7 +26,7 @@ Using simple Python simulations and visualizations, this model demonstrates:
 > The peg slips slowly due to loss of confidence.
 
 ### ❌ Scenario 3: Full Collapse
-> Severe price crash leads to extreme undercollateralization.  
+> Severe price crash leads to extreme undercollateralisation.  
 > The peg decays to a predefined floor ($0.80), simulating a crisis of confidence.
 
 ---
@@ -104,7 +104,7 @@ Using simple Python simulations and visualizations, this model demonstrates:
 
 ## Key Learnings
 
-- Overcollateralization is essential for peg stability.
+- Overcollateralisation is essential for peg stability.
 - Peg decay can begin *before* the system collapses, due to early confidence loss.
 - A simple threshold system can simulate cascading failure when pushed beyond design assumptions.
 
